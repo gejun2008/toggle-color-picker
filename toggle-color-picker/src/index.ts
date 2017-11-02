@@ -1,0 +1,1 @@
+export { ToggleColorPickerModule } from './toggle-color-picker/toggle-color-picker.module'

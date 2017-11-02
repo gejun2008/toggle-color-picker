@@ -1,0 +1,24 @@
+.dropdown-toggle{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+
+.color-picker-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.color-picker-item{
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+    border-radius:5px; 
+    min-width: 25px;
+    min-height: 25px;
+    margin: 3px;
+}

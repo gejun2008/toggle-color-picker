@@ -1,0 +1,10 @@
+<div ngbDropdown class="dropdown color-picker-container">
+  <button ngbDropdownToggle class="btn btn-default" type="button" [ngStyle]="{'background-color':selectedColor}" id="dropdownColorMenu">
+  </button>
+  <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownColorMenu">
+    <div class="color-picker-box">
+      <div class="color-picker-item" *ngFor="let item of colorList" (click)="changeColor(item)" [ngStyle]="{'background-color':item}">
+      </div>
+    </div>
+  </div>
+</div>
